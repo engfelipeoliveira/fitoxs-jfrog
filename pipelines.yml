@@ -5,5 +5,4 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - 'curl -k -u ${FITOXSUID}:${FITOXSTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"310\",\"targetid\":\"V0P8EbuOTLsPCpugpX6p1618629575\",\"ci\":\"JFRog\",\"tipo\":\"12\"}" https://fitoxs.com/ScanTarget/
-'
+            - ''
