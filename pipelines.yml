@@ -1,5 +1,5 @@
 pipelines: 
-  - name: zerobug
+  - name: fitoxs
     steps:
       - name: curl
         type: Bash
